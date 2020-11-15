@@ -21,3 +21,26 @@ h6 {
     color: #fff;
     line-height: 0.875;
 }
+
+
+.header {
+    background-color: #fff;
+}
+
+.u-links {
+    list-style: none;
+}
+
+.nav-bar {
+    display: inline;
+    background-color: black;
+}
+
+.nav-links a {
+    color: #E74C3C;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.100rem;
+    font-family: 'Montserrat', sans-serif;
+}

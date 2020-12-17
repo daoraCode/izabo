@@ -16,7 +16,7 @@ html {
 
 /* body */
 body {
-    background-color: #cac7c752;
+    background-color: #d3c7c752;
     font-family: 'IBM Plex Mono', monospace;
     position: relative;
     height: 100%;
@@ -110,16 +110,34 @@ img {
 }
 
 
-.iz-nav-list-item {
+.iz-nav-list {
     display: flex;
     align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
 }
 
-.gnav__list-item {
+.iz-nav-list-item {
     margin: 0 .4vw;
     font-size: 1.6rem;
+}
+
+.iz-nav-list-links {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
 
 ol, ul {

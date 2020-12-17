@@ -1,0 +1,138 @@
+/* izabo 1.0.0 
+ * Portfolio website - Séverin Mboukou */
+
+
+ /* Remove margin and padding in all browser */
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+    min-width: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* body */
+body {
+    background-color: #cac7c752;
+    font-family: 'IBM Plex Mono', monospace;
+    position: relative;
+    height: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* head titles */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    /* font-weight: normal; */
+    font-size: 2rem;
+}
+
+/* header */
+#header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    top: 0px;
+}
+
+.nav-slide-in-top {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.nav-slide-in-top.display {
+    top: 0;
+}
+
+.header-bg-aclr {
+    -webkit-transition: top .5s ease;
+    transition: top .5s ease;
+}
+
+@media screen and (min-width: 768px) {
+    .header-bg-aclr.bg-absc.display {
+        top: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pg-home.header.set {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        position: absolute;
+        top: 0 !important;
+        z-index: inherit;
+    }
+}
+
+
+.header-bd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .pg-home.header-bd {
+        background: transparent;
+    }
+}
+
+.header-logo {
+    width: 100%;
+    margin: 0 0 0 1vw;
+    max-width: 145px;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+    height: 95px;
+    width: auto;
+}
+
+
+.iz-nav-list-item {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+.gnav__list-item {
+    margin: 0 .4vw;
+    font-size: 1.6rem;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   margin: 0 10px 0 10px;
+}

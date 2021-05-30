@@ -1,2 +1,5 @@
 /image
 .DS_Store
+/fonts
+/css*
+!css/.cabinet-grotesk.css

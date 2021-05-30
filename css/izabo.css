@@ -1,9 +1,10 @@
+@import url('/css/cabinet-grotesk.css');
+
 /* izabo 1.0.0 
  * Portfolio website - Séverin Mboukou */
 
-
- /* Remove margin and padding in all browser */
- * {
+/* Remove margin and padding in all browser */
+* {
   margin: 0;
   padding: 0;
   min-height: 0;
@@ -18,19 +19,25 @@ html {
 
 /* body */
 body {
-  background-color: #d3c7c752;
-  font-family: 'IBM Plex Mono', monospace;
+  background-color: #f6f3f3;
   position: relative;
+  font-family: 'CabinetGrotesk-Variable';
   height: 100%;
   height: 100vh;
   min-height: 100vh;
   width: 100%;
   font-size: 100%;
   vertical-align: baseline;
+  font-weight: 400;
 }
 
 /* head titles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   /* font-weight: normal; */
   font-size: 2rem;
@@ -42,14 +49,14 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   width: 100%;
   height: 80px;
-  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   top: 0px;
 }
 
 .nav-slide-in-top {
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .nav-slide-in-top.display {
@@ -57,26 +64,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-bg-aclr {
-  -webkit-transition: top .5s ease;
-  transition: top .5s ease;
+  -webkit-transition: top 0.5s ease;
+  transition: top 0.5s ease;
 }
 
 @media screen and (min-width: 768px) {
   .header-bg-aclr.bg-absc.display {
-      top: 150px;
+    top: 150px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .pg-home.header.set {
-      -webkit-box-shadow: none;
-      box-shadow: none;
-      position: absolute;
-      top: 0 !important;
-      z-index: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: absolute;
+    top: 0 !important;
+    z-index: inherit;
   }
 }
-
 
 .header-bd {
   display: -webkit-box;
@@ -94,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 768px) {
   .pg-home.header-bd {
-      background: transparent;
+    background: transparent;
   }
 }
 
@@ -111,7 +117,6 @@ img {
   width: auto;
 }
 
-
 .iz-nav-list {
   display: flex;
   align-items: center;
@@ -120,7 +125,7 @@ img {
 }
 
 .iz-nav-list-item {
-  margin: 0 .4vw;
+  margin: 0 0.4vw;
   font-size: 1.6rem;
 }
 
@@ -138,11 +143,12 @@ img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -152,7 +158,7 @@ li {
 }
 
 a {
- text-decoration: none;
- color: inherit;
- margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: #4ecdc4;
+  margin: 0 10px 0 10px;
 }
